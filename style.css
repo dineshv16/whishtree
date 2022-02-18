@@ -1,0 +1,345 @@
+        html,
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .font-proxima {
+            font-family: 'Proxima Nova', sans-serif;
+
+        }
+
+        .font-Lato {
+            font-family: 'Lato', sans-serif;
+        }
+
+
+        .std-font-color {
+            color: #050605;
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
+
+        .font-15 {
+            font-size: 15px;
+        }
+
+        .font-18 {
+            font-size: 18px;
+        }
+
+        .font-20 {
+            font-size: 20px;
+        }
+
+        .section-heading {
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        .subheading-margin {
+            margin: 10px 0px 0px 0px;
+        }
+
+        .font-bold {
+
+            font-weight: bold;
+        }
+
+        .font-weight-900 {
+            font-weight: 900;
+        }
+
+        .line-height-22 {
+            line-height: 22px;
+        }
+
+        .line-height-24 {
+            line-height: 24px;
+        }
+
+        .line-height-30 {
+            line-height: 30px;
+        }
+
+        .std-heading {
+            font-size: 30px;
+            font-family: 'Proxima Nova', sans-serif;
+            color: #050605;
+        }
+
+        .std-subheading {
+            font-size: 15px;
+            font-family: 'Lato', sans-serif;
+            color: #050605;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+
+        .mt-10 {
+            margin-top: 10px;
+        }
+
+        .primary-btn {
+            width: 190px;
+            height: 50px;
+            color: #fff;
+            background: #22C6F9;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        .secondary-btn {
+            width: 150px;
+            height: 50px;
+            background: #FC3990;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        ul li > a {
+            padding: 0 !important;
+            margin-left: 50px;
+
+        }
+
+        .nav-link {
+            font-family: 'Lato', sans-serif;
+            color: #050605 !important;
+        }
+
+        .nav-link:hover {
+
+            filter: brightness(0) saturate(100%) invert(36%) sepia(84%) saturate(3625%) hue-rotate(316deg) brightness(109%) contrast(98%);
+            color: #FC3990 !important;
+            text-decoration: underline;
+        }
+
+        .nav-link > img:hover {
+            padding-bottom: 2px;
+            border-bottom: 2px solid #FC3990;
+        }
+
+        .contact-btn:hover {
+            filter: none;
+        }
+
+        .header-sm {
+            display: none;
+        }
+
+        .logo-sm {
+            display: none;
+        }
+
+        .header-bkg-img {
+            background-image: url(assets/img/Subtraction%201.svg);
+            background-repeat: no-repeat;
+        }
+
+        .section-margin {
+            margin-top: 155px;
+        }
+
+        .section1-sh-margin {
+            margin: 27px 0px 20px 0px;
+        }
+
+        .section2-sh-margin {
+            margin: 16px 0px 30px 0px;
+        }
+
+        .section3-sh-margin {
+            margin: 20px 0px 0px 0px;
+        }
+
+        .section-bkg-img {
+            background-image: url(assets/img/Ellipse%2033.png);
+            background-repeat: no-repeat;
+            background-position: 121% 0%;
+            height: 464px;
+            margin-top: 111px;
+        }
+
+        .heading-text {
+            font-size: 45px;
+            text-align: left;
+            margin-bottom: 0px;
+        }
+
+        .sub-header-text {
+            font-size: 18px;
+            text-align: left;
+            line-height: 30px;
+            font-family: 'Lato', sans-serif;
+            margin: 13px 0px 30px 0px;
+
+        }
+
+        .fixed-bottom {
+            display: none;
+        }
+
+        .text-left-sm {
+            text-align: center;
+        }
+
+        .margin-left-40px {
+            margin-left: 40px;
+        }
+
+        .img-dblock {
+            display: none;
+        }
+
+        .cursor-pointer {
+            cursor: pointer;
+        }
+
+        .text-align {
+            text-align: center;
+        }
+
+        button:hover {
+            color: #fff !important;
+        }
+
+        button:focus {
+            box-shadow:none!important;
+        }
+
+        @media (max-width: 576px) {
+
+            .plr-15 {
+                padding: 0px 15px;
+            }
+
+            .section-heading {
+                font-size: 24px;
+                line-height: 29px;
+            }
+
+            .section-margin {
+                margin-top: 100px;
+            }
+
+            .s2mt {
+                margin-top: 50px;
+            }
+
+            .section1-sh-margin {
+                margin: 27px 0px 20px 0px;
+            }
+
+            .header-sm {
+                display: block;
+                line-height: 2;
+                height: 40px;
+                background: #E6F7FB;
+            }
+
+            .logo-sm {
+                display: block;
+            }
+
+            .navbar-md {
+                display: none;
+            }
+
+            .header-bkg-img {
+                background-image: none;
+                background-repeat: no-repeat;
+            }
+
+            .section-bkg-img {
+                background-image: none;
+                margin-top: 40px;
+            }
+
+            .section-img {
+                margin: 30px 0px;
+            }
+
+            .section1-sh-margin {
+                margin: 20px 0px 30px 0px;
+            }
+
+            .section2-sh-margin {
+                margin: 10px 0px 30px 0px;
+            }
+
+            .section3-sh-margin {
+                margin: 10px 0px 0px 0px;
+            }
+
+            .sub-header-text {
+                font-size: 15px;
+                text-align: left;
+                line-height: 22px;
+                font-family: 'Lato', sans-serif;
+                margin: 20px 0px 20px 0px;
+            }
+
+            .heading-text {
+                font-size: 30px;
+                text-align: left;
+                margin-top: 29px;
+                margin-bottom: 0px;
+                line-height: 36px;
+            }
+
+            .mb-92 {
+                margin-bottom: 92px;
+            }
+
+            .fixed-bottom {
+                display: block;
+            }
+
+            .mt-50-sm {
+                margin-top: 50px;
+            }
+
+            .text-left-sm {
+                text-align: left;
+            }
+
+            .justify-content {
+                justify-content: left;
+                margin-left: 35px;
+            }
+
+            .section-img-2 {
+                display: none;
+            }
+
+            .img-dblock {
+                display: block;
+                margin: 0px auto;
+            }
+
+            .img-none {
+                display: none;
+            }
+
+            .text-align {
+                text-align: left !important;
+            }
+
+        }
